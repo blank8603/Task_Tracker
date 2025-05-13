@@ -1,0 +1,43 @@
+#task-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+  color: white;
+   
+    
+
+    background-color: black;
+}
+
+#task-list h2 {
+    font-size: 2rem; /* Larger font for the title */
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 30%;
+}
+
+.create-task-button {
+    display: flex;
+    align-items: center; /* Vertically align "+" icon and text */
+    justify-content: center; /* Center-align content */
+    padding: 0.8rem 7rem; /* Button padding */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+
+.create-task-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.create-task-button span {
+    display: inline-block;
+    margin-left: 0.5rem; /* Space between "+" and text */
+  }
