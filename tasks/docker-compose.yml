@@ -2,7 +2,7 @@ services:
   #Our PostgreSQL database
   db:
     #The Docker image of postgres -- we're using the latest.
-    image: likhi:latest
+    image: postgres:latest
     # The ports to expose to the host container
     # 5432 is the default PostgreSQL port
     ports:
