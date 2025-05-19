@@ -85,3 +85,51 @@
     color: #fff;
     cursor: pointer;
   }
+
+.containerStyle {
+    max-height: 80vh; /* Limits the height of the container */
+    overflow-y: auto; /* Adds vertical scrolling */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardStyle {
+    width: 340px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #71717a; /* Zinc-500 */
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.headerStyle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuIconStyle {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.headingStyle {
+    font-size: 18px;
+    margin: 0;
+    flex: 1;
+}
+
+.progressBarContainerStyle {
+    margin-top: 20px;
+    height: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progressBarStyle {
+    height: 100%;
+    background-color: #4caf50;
+}

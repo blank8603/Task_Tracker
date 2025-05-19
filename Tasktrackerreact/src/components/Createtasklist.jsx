@@ -10,6 +10,8 @@ const CreateTasklist = () => {
     const [title,setTitle]=useState();
     const [description,setDescription] = useState();
     const navigate = useNavigate()
+
+
     function handleGoBack(){
         navigate("/")
     }
@@ -34,7 +36,9 @@ const CreateTasklist = () => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
-      
+          if(response.ok){
+            navigate("/")
+          }
           const result = await response.json();
           console.log('Success:', result);
           
